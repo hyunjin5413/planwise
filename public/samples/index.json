@@ -1,0 +1,83 @@
+{
+ "project": "성수동 근린생활시설 신축공사",
+ "building": {
+  "use": "neighborhood",
+  "useDetail": "제2종 근린생활시설 (사무소, 점포)",
+  "aboveGroundFloors": 3,
+  "basementFloors": 0,
+  "floors": [
+   {
+    "level": 1,
+    "label": "1층",
+    "area": 540,
+    "windowless": false
+   },
+   {
+    "level": 2,
+    "label": "2층",
+    "area": 540,
+    "windowless": false
+   },
+   {
+    "level": 3,
+    "label": "3층",
+    "area": 540,
+    "windowless": false
+   }
+  ],
+  "totalArea": 1620,
+  "fireResistant": true,
+  "occupants": null
+ },
+ "samples": [
+  {
+   "id": "seongsu-3f",
+   "title": "3층 소방설비 평면도",
+   "floorLabel": "3층",
+   "level": 3,
+   "file": "seongsu-3f.png",
+   "truth": "seongsu-3f.truth.json",
+   "counts": {
+    "window": 6,
+    "door": 11,
+    "stair": 2,
+    "room": 11,
+    "extinguisher": 6,
+    "sprinkler_head": 52,
+    "smoke_detector": 8,
+    "heat_detector": 1,
+    "indoor_hydrant": 1,
+    "manual_call_point": 1,
+    "alarm_bell": 1,
+    "visual_alarm": 3,
+    "exit_sign": 2,
+    "corridor_guide_light": 2,
+    "emergency_light": 2
+   }
+  },
+  {
+   "id": "seongsu-1f",
+   "title": "1층 소방설비 평면도",
+   "floorLabel": "1층",
+   "level": 1,
+   "file": "seongsu-1f.png",
+   "truth": "seongsu-1f.truth.json",
+   "counts": {
+    "window": 6,
+    "door": 10,
+    "stair": 2,
+    "room": 8,
+    "extinguisher": 6,
+    "sprinkler_head": 62,
+    "indoor_hydrant": 1,
+    "manual_call_point": 1,
+    "alarm_bell": 1,
+    "fire_receiver": 1,
+    "visual_alarm": 3,
+    "exit_sign": 5,
+    "corridor_guide_light": 2,
+    "emergency_light": 1
+   }
+  }
+ ]
+}

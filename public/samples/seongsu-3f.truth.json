@@ -1,0 +1,1181 @@
+{
+ "id": "seongsu-3f",
+ "title": "3층 소방설비 평면도",
+ "floorLabel": "3층",
+ "level": 3,
+ "width": 4961,
+ "height": 3508,
+ "dpi": 300,
+ "ratioText": "1:100",
+ "pxPerMeter": 118.12,
+ "legendBox": {
+  "x": 3922,
+  "y": 189,
+  "w": 945,
+  "h": 1200
+ },
+ "building": {
+  "use": "neighborhood",
+  "useDetail": "제2종 근린생활시설 (사무소, 점포)",
+  "aboveGroundFloors": 3,
+  "basementFloors": 0,
+  "floors": [
+   {
+    "level": 1,
+    "label": "1층",
+    "area": 540,
+    "windowless": false
+   },
+   {
+    "level": 2,
+    "label": "2층",
+    "area": 540,
+    "windowless": false
+   },
+   {
+    "level": 3,
+    "label": "3층",
+    "area": 540,
+    "windowless": false
+   }
+  ],
+  "totalArea": 1620,
+  "fireResistant": true,
+  "occupants": null
+ },
+ "expectedFindings": [
+  {
+   "ruleId": "EXT-ROOM",
+   "room": "사무실 B",
+   "type": "violation",
+   "note": "64㎡ 구획 거실에 소화기 없음"
+  },
+  {
+   "ruleId": "SP-RADIUS",
+   "room": "회의실",
+   "type": "violation",
+   "note": "헤드 2개로 모서리 수평거리 약 4.0m"
+  },
+  {
+   "ruleId": "EXIT-SIGN",
+   "room": "계단실2 출입구",
+   "type": "violation",
+   "note": "계단실2 출입구 피난구유도등 없음"
+  },
+  {
+   "ruleId": "DET-ROOM",
+   "room": "남자화장실",
+   "type": "check",
+   "note": "일반 화장실 감지기 없음"
+  },
+  {
+   "ruleId": "DET-ROOM",
+   "room": "여자화장실",
+   "type": "check",
+   "note": "일반 화장실 감지기 없음"
+  }
+ ],
+ "objects": [
+  {
+   "id": "seongsu-3f-window-0",
+   "kind": "window",
+   "box": {
+    "x": 567,
+    "y": 600,
+    "w": 472,
+    "h": 28
+   }
+  },
+  {
+   "id": "seongsu-3f-window-1",
+   "kind": "window",
+   "box": {
+    "x": 1158,
+    "y": 600,
+    "w": 354,
+    "h": 28
+   }
+  },
+  {
+   "id": "seongsu-3f-window-2",
+   "kind": "window",
+   "box": {
+    "x": 1925,
+    "y": 600,
+    "w": 354,
+    "h": 28
+   }
+  },
+  {
+   "id": "seongsu-3f-window-3",
+   "kind": "window",
+   "box": {
+    "x": 2634,
+    "y": 600,
+    "w": 591,
+    "h": 28
+   }
+  },
+  {
+   "id": "seongsu-3f-window-4",
+   "kind": "window",
+   "box": {
+    "x": 2457,
+    "y": 2726,
+    "w": 472,
+    "h": 28
+   }
+  },
+  {
+   "id": "seongsu-3f-window-5",
+   "kind": "window",
+   "box": {
+    "x": 3166,
+    "y": 2726,
+    "w": 472,
+    "h": 28
+   }
+  },
+  {
+   "id": "seongsu-3f-door-6",
+   "kind": "door",
+   "box": {
+    "x": 1459,
+    "y": 1453,
+    "w": 106,
+    "h": 118
+   }
+  },
+  {
+   "id": "seongsu-3f-door-7",
+   "kind": "door",
+   "box": {
+    "x": 1813,
+    "y": 1453,
+    "w": 106,
+    "h": 118
+   }
+  },
+  {
+   "id": "seongsu-3f-door-8",
+   "kind": "door",
+   "box": {
+    "x": 2581,
+    "y": 1453,
+    "w": 106,
+    "h": 118
+   }
+  },
+  {
+   "id": "seongsu-3f-door-9",
+   "kind": "door",
+   "box": {
+    "x": 3461,
+    "y": 1453,
+    "w": 106,
+    "h": 118
+   }
+  },
+  {
+   "id": "seongsu-3f-door-10",
+   "kind": "door",
+   "box": {
+    "x": 644,
+    "y": 1843,
+    "w": 106,
+    "h": 118
+   }
+  },
+  {
+   "id": "seongsu-3f-door-11",
+   "kind": "door",
+   "box": {
+    "x": 963,
+    "y": 1843,
+    "w": 94,
+    "h": 106
+   }
+  },
+  {
+   "id": "seongsu-3f-door-12",
+   "kind": "door",
+   "box": {
+    "x": 1376,
+    "y": 1843,
+    "w": 94,
+    "h": 106
+   }
+  },
+  {
+   "id": "seongsu-3f-door-13",
+   "kind": "door",
+   "box": {
+    "x": 1784,
+    "y": 1843,
+    "w": 106,
+    "h": 118
+   }
+  },
+  {
+   "id": "seongsu-3f-door-14",
+   "kind": "door",
+   "box": {
+    "x": 2085,
+    "y": 1843,
+    "w": 94,
+    "h": 106
+   }
+  },
+  {
+   "id": "seongsu-3f-door-15",
+   "kind": "door",
+   "box": {
+    "x": 2941,
+    "y": 1843,
+    "w": 213,
+    "h": 118
+   }
+  },
+  {
+   "id": "seongsu-3f-door-16",
+   "kind": "door",
+   "box": {
+    "x": 224,
+    "y": 1601,
+    "w": 118,
+    "h": 213
+   }
+  },
+  {
+   "id": "seongsu-3f-stair-17",
+   "kind": "stair",
+   "box": {
+    "x": 3449,
+    "y": 661,
+    "w": 378,
+    "h": 661
+   }
+  },
+  {
+   "id": "seongsu-3f-stair-18",
+   "kind": "stair",
+   "box": {
+    "x": 378,
+    "y": 2079,
+    "w": 378,
+    "h": 614
+   }
+  },
+  {
+   "id": "seongsu-3f-room-19",
+   "kind": "room",
+   "box": {
+    "x": 331,
+    "y": 614,
+    "w": 1417,
+    "h": 945
+   },
+   "label": "사무실 A"
+  },
+  {
+   "id": "seongsu-3f-room-20",
+   "kind": "room",
+   "box": {
+    "x": 1748,
+    "y": 614,
+    "w": 709,
+    "h": 945
+   },
+   "label": "회의실"
+  },
+  {
+   "id": "seongsu-3f-room-21",
+   "kind": "room",
+   "box": {
+    "x": 2457,
+    "y": 614,
+    "w": 945,
+    "h": 945
+   },
+   "label": "사무실 B"
+  },
+  {
+   "id": "seongsu-3f-room-22",
+   "kind": "room",
+   "box": {
+    "x": 3402,
+    "y": 614,
+    "w": 472,
+    "h": 945
+   },
+   "label": "계단실1"
+  },
+  {
+   "id": "seongsu-3f-room-23",
+   "kind": "room",
+   "box": {
+    "x": 331,
+    "y": 1559,
+    "w": 3544,
+    "h": 295
+   },
+   "label": "복도"
+  },
+  {
+   "id": "seongsu-3f-room-24",
+   "kind": "room",
+   "box": {
+    "x": 331,
+    "y": 1854,
+    "w": 472,
+    "h": 886
+   },
+   "label": "계단실2"
+  },
+  {
+   "id": "seongsu-3f-room-25",
+   "kind": "room",
+   "box": {
+    "x": 803,
+    "y": 1854,
+    "w": 413,
+    "h": 886
+   },
+   "label": "남자화장실"
+  },
+  {
+   "id": "seongsu-3f-room-26",
+   "kind": "room",
+   "box": {
+    "x": 1217,
+    "y": 1854,
+    "w": 413,
+    "h": 886
+   },
+   "label": "여자화장실"
+  },
+  {
+   "id": "seongsu-3f-room-27",
+   "kind": "room",
+   "box": {
+    "x": 1630,
+    "y": 1854,
+    "w": 413,
+    "h": 886
+   },
+   "label": "탕비실"
+  },
+  {
+   "id": "seongsu-3f-room-28",
+   "kind": "room",
+   "box": {
+    "x": 2043,
+    "y": 1854,
+    "w": 177,
+    "h": 886
+   },
+   "label": "EPS·TPS"
+  },
+  {
+   "id": "seongsu-3f-room-29",
+   "kind": "room",
+   "box": {
+    "x": 2221,
+    "y": 1854,
+    "w": 1654,
+    "h": 886
+   },
+   "label": "점포"
+  },
+  {
+   "id": "seongsu-3f-extinguisher-30",
+   "kind": "extinguisher",
+   "box": {
+    "x": 1021,
+    "y": 1781,
+    "w": 38,
+    "h": 52
+   }
+  },
+  {
+   "id": "seongsu-3f-extinguisher-31",
+   "kind": "extinguisher",
+   "box": {
+    "x": 3147,
+    "y": 1580,
+    "w": 38,
+    "h": 52
+   }
+  },
+  {
+   "id": "seongsu-3f-extinguisher-32",
+   "kind": "extinguisher",
+   "box": {
+    "x": 371,
+    "y": 1451,
+    "w": 38,
+    "h": 52
+   }
+  },
+  {
+   "id": "seongsu-3f-extinguisher-33",
+   "kind": "extinguisher",
+   "box": {
+    "x": 2379,
+    "y": 1451,
+    "w": 38,
+    "h": 52
+   }
+  },
+  {
+   "id": "seongsu-3f-extinguisher-34",
+   "kind": "extinguisher",
+   "box": {
+    "x": 3785,
+    "y": 2632,
+    "w": 38,
+    "h": 52
+   }
+  },
+  {
+   "id": "seongsu-3f-extinguisher-35",
+   "kind": "extinguisher",
+   "box": {
+    "x": 1954,
+    "y": 2632,
+    "w": 38,
+    "h": 52
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-36",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 493,
+    "y": 756,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-37",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 493,
+    "y": 1071,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-38",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 493,
+    "y": 1387,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-39",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 847,
+    "y": 756,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-40",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 847,
+    "y": 1071,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-41",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 847,
+    "y": 1387,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-42",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 1201,
+    "y": 756,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-43",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 1201,
+    "y": 1071,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-44",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 1201,
+    "y": 1387,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-45",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 1556,
+    "y": 756,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-46",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 1556,
+    "y": 1071,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-47",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 1556,
+    "y": 1387,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-48",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 2087,
+    "y": 914,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-49",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 2087,
+    "y": 1228,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-50",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 2599,
+    "y": 756,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-51",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 2599,
+    "y": 1071,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-52",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 2599,
+    "y": 1387,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-53",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 2914,
+    "y": 756,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-54",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 2914,
+    "y": 1071,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-55",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 2914,
+    "y": 1387,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-56",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 3229,
+    "y": 756,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-57",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 3229,
+    "y": 1071,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-58",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 3229,
+    "y": 1387,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-59",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 537,
+    "y": 1691,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-60",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 980,
+    "y": 1691,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-61",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 1423,
+    "y": 1691,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-62",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 1866,
+    "y": 1691,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-63",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 2309,
+    "y": 1691,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-64",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 2752,
+    "y": 1691,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-65",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 3195,
+    "y": 1691,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-66",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 3638,
+    "y": 1691,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-67",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 1719,
+    "y": 1987,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-68",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 1719,
+    "y": 2282,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-69",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 1719,
+    "y": 2577,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-70",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 1925,
+    "y": 1987,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-71",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 1925,
+    "y": 2282,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-72",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 1925,
+    "y": 2577,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-73",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 2371,
+    "y": 1987,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-74",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 2371,
+    "y": 2282,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-75",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 2371,
+    "y": 2577,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-76",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 2701,
+    "y": 1987,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-77",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 2701,
+    "y": 2282,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-78",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 2701,
+    "y": 2577,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-79",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 3032,
+    "y": 1987,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-80",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 3032,
+    "y": 2282,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-81",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 3032,
+    "y": 2577,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-82",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 3363,
+    "y": 1987,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-83",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 3363,
+    "y": 2282,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-84",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 3363,
+    "y": 2577,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-85",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 3694,
+    "y": 1987,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-86",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 3694,
+    "y": 2282,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-sprinkler_head-87",
+   "kind": "sprinkler_head",
+   "box": {
+    "x": 3694,
+    "y": 2577,
+    "w": 31,
+    "h": 31
+   }
+  },
+  {
+   "id": "seongsu-3f-smoke_detector-88",
+   "kind": "smoke_detector",
+   "box": {
+    "x": 1017,
+    "y": 907,
+    "w": 45,
+    "h": 45
+   }
+  },
+  {
+   "id": "seongsu-3f-smoke_detector-89",
+   "kind": "smoke_detector",
+   "box": {
+    "x": 1903,
+    "y": 1064,
+    "w": 45,
+    "h": 45
+   }
+  },
+  {
+   "id": "seongsu-3f-smoke_detector-90",
+   "kind": "smoke_detector",
+   "box": {
+    "x": 2750,
+    "y": 907,
+    "w": 45,
+    "h": 45
+   }
+  },
+  {
+   "id": "seongsu-3f-smoke_detector-91",
+   "kind": "smoke_detector",
+   "box": {
+    "x": 1194,
+    "y": 1684,
+    "w": 45,
+    "h": 45
+   }
+  },
+  {
+   "id": "seongsu-3f-smoke_detector-92",
+   "kind": "smoke_detector",
+   "box": {
+    "x": 2966,
+    "y": 1684,
+    "w": 45,
+    "h": 45
+   }
+  },
+  {
+   "id": "seongsu-3f-smoke_detector-93",
+   "kind": "smoke_detector",
+   "box": {
+    "x": 3616,
+    "y": 734,
+    "w": 45,
+    "h": 45
+   }
+  },
+  {
+   "id": "seongsu-3f-smoke_detector-94",
+   "kind": "smoke_detector",
+   "box": {
+    "x": 545,
+    "y": 2623,
+    "w": 45,
+    "h": 45
+   }
+  },
+  {
+   "id": "seongsu-3f-smoke_detector-95",
+   "kind": "smoke_detector",
+   "box": {
+    "x": 2860,
+    "y": 2127,
+    "w": 45,
+    "h": 45
+   }
+  },
+  {
+   "id": "seongsu-3f-heat_detector-96",
+   "kind": "heat_detector",
+   "box": {
+    "x": 1811,
+    "y": 2136,
+    "w": 52,
+    "h": 28
+   }
+  },
+  {
+   "id": "seongsu-3f-indoor_hydrant-97",
+   "kind": "indoor_hydrant",
+   "box": {
+    "x": 2085,
+    "y": 1795,
+    "w": 130,
+    "h": 47
+   }
+  },
+  {
+   "id": "seongsu-3f-manual_call_point-98",
+   "kind": "manual_call_point",
+   "box": {
+    "x": 2388,
+    "y": 1780,
+    "w": 43,
+    "h": 43
+   }
+  },
+  {
+   "id": "seongsu-3f-alarm_bell-99",
+   "kind": "alarm_bell",
+   "box": {
+    "x": 2447,
+    "y": 1780,
+    "w": 43,
+    "h": 43
+   }
+  },
+  {
+   "id": "seongsu-3f-visual_alarm-100",
+   "kind": "visual_alarm",
+   "box": {
+    "x": 1630,
+    "y": 1571,
+    "w": 59,
+    "h": 59
+   }
+  },
+  {
+   "id": "seongsu-3f-visual_alarm-101",
+   "kind": "visual_alarm",
+   "box": {
+    "x": 3278,
+    "y": 1571,
+    "w": 59,
+    "h": 59
+   }
+  },
+  {
+   "id": "seongsu-3f-visual_alarm-102",
+   "kind": "visual_alarm",
+   "box": {
+    "x": 2262,
+    "y": 2652,
+    "w": 59,
+    "h": 59
+   }
+  },
+  {
+   "id": "seongsu-3f-exit_sign-103",
+   "kind": "exit_sign",
+   "box": {
+    "x": 3473,
+    "y": 1586,
+    "w": 83,
+    "h": 40
+   }
+  },
+  {
+   "id": "seongsu-3f-exit_sign-104",
+   "kind": "exit_sign",
+   "box": {
+    "x": 358,
+    "y": 1665,
+    "w": 40,
+    "h": 83
+   }
+  },
+  {
+   "id": "seongsu-3f-corridor_guide_light-105",
+   "kind": "corridor_guide_light",
+   "box": {
+    "x": 1474,
+    "y": 1808,
+    "w": 76,
+    "h": 33
+   }
+  },
+  {
+   "id": "seongsu-3f-corridor_guide_light-106",
+   "kind": "corridor_guide_light",
+   "box": {
+    "x": 2655,
+    "y": 1808,
+    "w": 76,
+    "h": 33
+   }
+  },
+  {
+   "id": "seongsu-3f-emergency_light-107",
+   "kind": "emergency_light",
+   "box": {
+    "x": 782,
+    "y": 1585,
+    "w": 43,
+    "h": 43
+   }
+  },
+  {
+   "id": "seongsu-3f-emergency_light-108",
+   "kind": "emergency_light",
+   "box": {
+    "x": 3381,
+    "y": 1798,
+    "w": 43,
+    "h": 43
+   }
+  }
+ ]
+}
